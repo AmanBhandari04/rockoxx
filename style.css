@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Barlow Condensed', sans-serif;
     transition: 0.5s ease-out;
+    text-decoration: none;
 }
 
 
@@ -942,144 +943,581 @@ color: white;
   background-color: white;
   padding: 10px;
 }
-
+.line2 button:hover{
+   background-color: #b3ca18;
+}
+.line1 button:hover{
+background-color: #f9fd07;
+}
+.line3 button:hover{
+  background-color: #13c9da;
+}
+.line4 button:hover{
+background-color: rgb(223, 4, 4);
+}
 /* about div end */
+/* protfolio div start */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .team-box p{
-  text-align: center;
-  font-size: 1.9em;
+.prot-cont h4{
+  font-size: 60px;
+   color: #7251a2;
+   margin-top: 20px;
+   text-align: center;
+   font-weight: bolder;
+}
+.prot-cont p{
+font-size: 30px;
   color: black;
-
-  
-  }
-  
-  .team{
-    justify-content: space-evenly;
- display: flex;
+  font-weight: 700;
+  text-align: center;
+}
+nav ul{
+  display: flex;
+  gap: 50px;
+ justify-content: center;
+  list-style: none;
  margin-top: 30px;
-  }
-  .team h3{
-    text-align: center;
-    font-size: 1.5em;
-   }
-   .team p{
-    text-align: center;
-    font-size: 1.1em;
-    color: black;
-   }
-    */
+}
+nav a li{
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+  
+}
+#one{
+  border: 1px solid #7251a2;
 
+}
+nav a li:hover{
+  border: 1px solid #7251a2;
+ transition: 0.3s ease-in-out;
+}
+
+.product{
+  display: flex;
+ margin-top: 50px;
+}
+.product2{
+  display: flex;
+  
+}
+
+.partner4{
+  height: 250px;
+  width: 340px;
+  
+      overflow: hidden;
+}
+.link4{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img4{
+  background-image: url(./photos/logo/rok1.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img4:hover::before{
+  content: "";
+  background-color: #14b8aa9d;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img4:hover .link4{
+  bottom: 0;
+  z-index: 1;
+}
+
+
+.partner5{
+  height: 250px;
+  width: 340px;
+  position: relative;
+      overflow: hidden;
+}
+.link5{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img5{
+  background-image: url(./photos/logo/rok2.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img5:hover::before{
+  content: "";
+  background-color: #bed43194;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img5:hover .link5{
+  bottom: 0;
+  z-index: 1;
+}
+
+.partner6{
+  height: 250px;
+  width: 340px;
+  position: relative;
+      overflow: hidden;
+}
+.link6{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img6{
+  background-image: url(./photos/logo/rok3.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img6:hover::before{
+  content: "";
+  background-color: #e11e249d;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img6:hover .link6{
+  bottom: 0;
+  z-index: 1;
+}
+
+.partner7{
+  height: 250px;
+  width: 340px;
+  position: relative;
+      overflow: hidden;
+}
+.link7{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img7{
+  background-image: url(./photos/logo/rok4.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img7:hover::before{
+  content: "";
+  background-color: #7151a2a4;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img7:hover .link7{
+  bottom: 0;
+  z-index: 1;
+}
+
+.partner8{
+  height: 250px;
+  width: 340px;
+  position: relative;
+      overflow: hidden;
+}
+.link8{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img8{
+  background-image: url(./photos/logo/rok5.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img8:hover::before{
+  content: "";
+  background-color: #7151a294;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img8:hover .link8  {
+  bottom: 0;
+  z-index: 1;
+}
+
+.partner9{
+  height: 250px;
+  width: 340px;
+  position: relative;
+      overflow: hidden;
+}
+.link9{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img9{
+  background-image: url(./photos/logo/portfolio6.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img9:hover::before{
+  content: "";
+  background-color: #e11e24a6;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img9:hover .link9{
+  bottom: 0;
+  z-index: 1;
+}
+
+.partner10{
+  height: 250px;
+  width: 340px;
+  position: relative;
+      overflow: hidden;
+}
+.link10{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img10{
+  background-image: url(./photos/logo/portfolio7.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img10:hover::before{
+  content: "";
+  background-color: #5ecbe680;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img10:hover .link10{
+  bottom: 0;
+  z-index: 1;
+}
+
+.partner11{
+  height: 250px;
+  width: 340px;
+  position: relative;
+      overflow: hidden;
+}
+.link11{
+  transition: 0.3s;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
+}
+.img11{
+  background-image: url(./photos/logo/portfolio8.jpg);
+  height: 250px;
+  width: 340px;
+  transition: 0.5s;
+}
+
+.img11:hover::before{
+  content: "";
+  background-color: #bed4317e;
+  height: 250px;
+  width: 340px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.img11:hover .link11{
+  bottom: 0;
+  z-index: 1;
+}
+.fa-magnifying-glass{
+  border: 3px solid white;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 23px;
+}
+.fa-link{
+  border: 3px solid white;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 23px;
+}
+/* protfolio div end */
+/*  seller div start*/
+.sell-cont{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+.sell-cont h4{
+  font: 80px bolder  ;
+  color: rgb(248, 13, 248);
+
+}
+.sell-cont p{
+  font: 30px bolder  ;
+  color: rgb(12, 12, 12);
 
   
+}
+.sell-pics{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+  height: 70vh;
+}
+.sell-p1{
+  height: 400px;
+  width: 270px;
+  overflow: hidden;
+}
+.sell-p2{
+  height: 400px;
+  width: 270px;
+  overflow: hidden;
+}
+.sell-p3{
+  height: 400px;
+  width: 270px;
+  overflow: hidden;
+}
+.sell-p4{
+  height: 400px;
+  width: 270px;
+  overflow: hidden;
+}
+.sell-img{
+background-image: url(./photos/logo/shirt1.jpg);
+height: 300px;
+width: 270px;
+}
+.sell-img2{
+  background-image: url(./photos/logo/shirt2.jpg);
+height: 300px;
+width: 270px;
+}
+.sell-img3{
+  background-image: url(./photos/logo/shirt3.jpg);
+height: 300px;
+width: 270px;
+}
+.sell-img4{
+  background-image: url(./photos/logo/shirt4.jpg);
+height: 300px;
+width: 270px;
+}
+.sell-img:hover::before{
+  content: '';
+  background-color:#9db2119a;
+  height: 300px;
+  width: 270px;
+  position: absolute;
+  z-index: 1;
+}
+.sell-img2:hover::before{
+  content: '';
+  background-color:#13c9da8f;
+  height: 300px;
+  width: 270px;
+  position: absolute;
+  z-index: 1;
+}
+.sell-img3:hover::before{
+  content: '';
+  background-color:rgba(255, 0, 0, 0.582);
+  height: 300px;
+  width: 270px;
+  position: absolute;
+  z-index: 1;
+}
+.sell-img4:hover::before{
+  content: '';
+  background-color:#7151a29d;
+  height: 300px;
+  width: 270px;
+  position: absolute;
+  z-index: 1;
+}
+
+.sell-pics h3{
+  font-size: 30px;
+
+}
+.sell-pics h3 span{ 
+  font-size: 15px;
+
+}
+#hp{
+  color:#13c9da;
+  font-size: 30px;
+  font-weight:bolder;
+}
+#fy{
+  color: #9cb211;
+  font-size: 30px;
+  font-weight:bolder;
+}
+#bt{
+  color: red;
+  font-size: 30px;
+  font-weight:bolder;
+}
+#fn{
+  color:#7251a2;
+  font-size: 30px;
+  font-weight:bolder;
+}
+
+.h{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sell-p1:hover .shop{
+
+  bottom: 0;  
+  z-index: 3;
+
+}
+.fa-cart-shopping{
+  font-size: 25px;
+  border: 3px solid white ;
+  padding: 10px;
+  color:  white;
+  border-radius: 5px;
+}
+.sell-p2:hover .shop{
+
+  bottom: 0;  
+  z-index: 3;
+
+}
+
+.sell-p3:hover .shop{
+
+  bottom: 0;  
+  z-index: 3;
+
+}
+.sell-p4:hover .shop{
+
+  bottom: 0;  
+  z-index: 3;
+
+}
 
 
 
-
-
-
-  /* @media (max-width: 727px){
-.paralex-bg {
-    max-height: 520px;
-    padding: 50px 0 0;
-    width: 700px;
-    background-attachment: scroll;
-}
-.icon{
-    height: 93vh;
-    width: 100%;
-    
-}
-.icon1{
-    width: 100px;
-    text-align: center;
-}
-.icon2{
-    width: 100px;
-    text-align: center;
-}
-.icon3{
-    width: 100px;
-    text-align: center;
-}
-.icon4{
-    width: 100px;
-    text-align: center;
-}
-.icon5{
-    width: 100px;
-    text-align: center; 
-}
-.font1{
-    text-align: center;
-    width: 100px;
-   
- font-size: 40px;
- padding-top: 30px;
- color: white;
-}
-.nav-rocket{
-    width: 100%;
-    height: 500px;
-    flex-direction: column;
-    margin-left: 150px;
-    justify-content: center;
-}
-.fa-rocket{
-    font-size: 130px;
-    border-radius: 100px;
-}
-.fa-code{
-    font-size: 130px;
-    border-radius: 100px;
-}
-.fa-clock{
-    font-size: 130px;
-    border-radius: 100px;
-}
-.rocket1st h3{
-  font-size: 40px;
+.shop{
+  transition: 0.3s;
+  gap: 20px;
   width: 100%;
-  margin-left: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 400px;
 }
-.rocket1st p{
-    font-size: 30px;
-    width: 100%;
-    margin-left: 0;
-  }
-.rocket2nd h3{
-    font-size: 30px;
-    width: 100%;
-    margin-left: 0;
-}
-.rocket3rd h3{
-    font-size: 30px;
-    width: 100%;
-    margin-left: 0;
-}
-} */
+/*  seller div end*/
+/* awsm-clint div start  */
+ .overlay{
+  background-image: url(./photos/logo/clients-bg.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+ }
+  .awsm-clint{
+  
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.726);
+
+ } 
+ 
